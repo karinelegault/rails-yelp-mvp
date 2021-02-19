@@ -8,9 +8,9 @@ class ApplicationController < ActionController::Base
   def show
   end
 
-  def new
-    @restaurant = Restaurant.new
-  end
+  # def new
+  #   @restaurant = Restaurant.new
+  # end
 
   def edit
   end
